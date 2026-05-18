@@ -1,21 +1,6 @@
 # VIGOR – Visual Intelligent GeoGebra Objective Reasoning enhancement for AI
 ## Abstract
 
-Vision Language Models (VLMs) often struggle with fine-grained understanding of geometric
-image data [1]. Concurrently, over-reliance on AI has caused students to obtain answers di-
-rectly using AI, bypassing the process of gaining any conceptual understanding. SketchMath
-(formerly Vigor) aims to leverage an extended version of PyGGB API [2] as a tool for the
-VLM with the goal of improving its fine-grained geometric image understanding while also
-contributing to an active learning environment. This project initially aimed to utilize Super-
-vised Fine-Tuning (SFT) to train a Small Language Model (SLM) to verify the outputs of the
-VLM. However, inconclusive SFT results due to data constraints prompted a strategic transition
-towards developing ‘Teacher Mode’, a feature offering immediate demonstrable value to the
-project.
+Vision Language Models (VLMs) often struggle with fine-grained understanding of geometric image data [1]. Concurrently, over-reliance on AI has caused students to obtain answers directly using AI, bypassing the process of gaining any conceptual understanding. SketchMath (formerly Vigor) aims to leverage an extended version of PyGGB API [2] as a tool for the VLM with the goal of improving its fine-grained geometric image understanding while also contributing to an active learning environment. This project initially aimed to utilize Supervised Fine-Tuning (SFT) to train a Small Language Model (SLM) to verify the outputs of the VLM. However, inconclusive SFT results due to data constraints prompted a strategic transition towards developing ‘Teacher Mode’, a feature offering immediate demonstrable value to the project.
 
-Teacher Mode consists of ‘Active Generation Mode’, ‘Active Learning Mode’, and a ‘Large
-Language Model (LLM) Judge’. In Active Generation Mode, the teacher can collaborate with
-the LLM to generate and refine math questions. With the aid of prompt engineering techniques,
-Active Learning Mode addresses passive learning by guiding students with hints towards the
-correct answer. Furthermore, the LLM Judge acts as a safety mechanism, flagging any cases of
-AI misuse to alert the teacher. Ultimately, this project contributes towards fostering a transpar-
-ent, engaging, and conceptually rigorous learning environment for motivated students.
+Teacher Mode consists of ‘Active Generation Mode’, ‘Active Learning Mode’, and a ‘Large Language Model (LLM) Judge’. In Active Generation Mode, the teacher can collaborate with the LLM to generate and refine math questions. With the aid of prompt engineering techniques, Active Learning Mode addresses passive learning by guiding students with hints towards the correct answer. Furthermore, the LLM Judge acts as a safety mechanism, flagging any cases of AI misuse to alert the teacher. Ultimately, this project contributes towards fostering a transparent, engaging, and conceptually rigorous learning environment for motivated students.
