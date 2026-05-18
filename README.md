@@ -1,5 +1,6 @@
 # VIGOR – Visual Intelligent GeoGebra Objective Reasoning enhancement for AI
 ## Abstract
+
 Vision Language Models (VLMs) often struggle with fine-grained understanding of geometric
 image data [1]. Concurrently, over-reliance on AI has caused students to obtain answers di-
 rectly using AI, bypassing the process of gaining any conceptual understanding. SketchMath
@@ -10,6 +11,7 @@ vised Fine-Tuning (SFT) to train a Small Language Model (SLM) to verify the outp
 VLM. However, inconclusive SFT results due to data constraints prompted a strategic transition
 towards developing ‘Teacher Mode’, a feature offering immediate demonstrable value to the
 project.
+
 Teacher Mode consists of ‘Active Generation Mode’, ‘Active Learning Mode’, and a ‘Large
 Language Model (LLM) Judge’. In Active Generation Mode, the teacher can collaborate with
 the LLM to generate and refine math questions. With the aid of prompt engineering techniques,
